@@ -9,7 +9,7 @@ for(let i=1; i<=10; i++){
  //console.log(`${base} X ${i} = ${base * i}`);
 }
 
-fs.writeFile(`tablas/tabla-${base}.txt`, tabla, (err) => {
+fs.writeFile(`tablas1/tabla-${base}.txt`, tabla, (err) => {
 if (err) throw err;
-console.log(`El archivo tbala-${base}.txt ha sido generado con exito`);
+console.log(`El archivo tabla-${base}.txt ha sido generado con exito`);
 });
